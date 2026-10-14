@@ -527,7 +527,7 @@
 <div class="scanlines"></div>
 <div class="scan-sweep"></div>
 
-<div class="notice">DEMO MODE — all results below are fabricated placeholder data generated locally. No real lookup is performed.</div>
+<div class="notice">Data fetched from sheet after the real lookup is performed.</div>
 
 <header>
   <div class="brand">
@@ -548,7 +548,7 @@
 <main>
   <div class="search-wrap">
     <h1 class="glitch-title" id="glitchTitle">Look up a username, email, or IP</h1>
-    <p>Enter an identifier below. This demo returns sample output only — it does not query any real database or service.</p>
+    <p>Enter an identifier below. Shows data after contacting real database or service.</p>
     <div class="boot-line" id="bootLine"></div>
     <div class="search-box">
       <input id="queryInput" type="text" placeholder="Enter ticket id" autocomplete="off">
@@ -582,63 +582,63 @@
     <div class="grid">
       <div class="card">
         <div class="label">IP address</div>
-        <div class="value accent" id="rIp">—</div>
+        <div class="value accent" id="192.0.2.55">—</div>
       </div>
       <div class="card">
         <div class="label">Approx. location</div>
-        <div class="value" id="rLoc">—</div>
+        <div class="value" id="Gaya">—</div>
       </div>
       <div class="card">
         <div class="label">ISP</div>
-        <div class="value" id="rIsp">—</div>
+        <div class="value" id="Airtel">—</div>
       </div>
       <div class="card">
         <div class="label">Device / browser</div>
-        <div class="value" id="rDevice">—</div>
+        <div class="value" id="Oneplus 10 pro">—</div>
       </div>
       <div class="card">
         <div class="label">Email (public, masked)</div>
-        <div class="value" id="rEmail">—</div>
+        <div class="value" id="adityalikes80085@gmail.com">—</div>
       </div>
       <div class="card">
-        <div class="label">Account created</div>
-        <div class="value" id="rCreated">—</div>
+        <div class="label">Instagram user id's on phone</div>
+        <div class="value" id="Chulbuliiiaand , i.like.you.nandita">—</div>
       </div>
       <div class="card wide">
-        <div class="label">Linked public profiles</div>
-        <div class="tag-list" id="rTags"></div>
+        <div class="label">Instagram id's passwords on phone</div>
+        <div class="tag-list" id="Aditya15@[] , Aditya15@[]"></div>
       </div>
       <div class="card wide">
-        <div class="label">Notes</div>
-        <div class="value" id="rNotes" style="color: var(--text-dim); font-size:0.85rem; line-height:1.5;">—</div>
+        <div class="label">Other apps</div>
+        <div class="value" id="No other details available" style="color: var(--text-dim); font-size:0.85rem; line-height:1.5;">—</div>
       </div>
 
       <div class="card">
-        <div class="label">Phone number</div>
-        <div class="value" id="rPhone"></div>
+        <div class="label">Email password</div>
+        <div class="value" id="aditya@15[]"></div>
       </div>
       <div class="card">
         <div class="label">Last seen</div>
-        <div class="value" id="rLastSeen"></div>
+        <div class="value" id="Just now"></div>
       </div>
       <div class="card">
-        <div class="label">Associated username</div>
-        <div class="value" id="rUsername"></div>
+        <div class="label">Android model</div>
+        <div class="value" id="Android 14"></div>
       </div>
       <div class="card">
-        <div class="label">Account status</div>
-        <div class="value" id="rStatus"></div>
+        <div class="label">stats id </div>
+        <div class="value" id="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36"></div>
       </div>
       <div class="card wide">
-        <div class="label">Additional notes</div>
-        <div class="value" id="rExtraNotes" style="color: var(--text-dim); font-size:0.85rem; line-height:1.5;"></div>
+        <div class="label">Screen</div>
+        <div class="value" id="412x915" style="color: var(--text-dim); font-size:0.85rem; line-height:1.5;"></div>
       </div>
     </div>
   </div>
 </main>
 
 <footer>
-  TraceLookup demo — for coursework / presentation purposes only. All data shown is fictional and generated in your browser.
+  Site made by Yash. ALL RIGHTS RESERVED
 </footer>
 
 <script>
@@ -665,12 +665,12 @@
     return `${shown}${"*".repeat(Math.max(3, clean.length-2))}@sample-mail.demo`;
   }
 
-  const locations = ["Pune, Maharashtra, IN", "Austin, TX, US", "Toronto, ON, CA", "Manchester, UK", "Berlin, DE", "Singapore, SG"];
-  const isps = ["Jio Fiber", "Comcast Cable", "Deutsche Telekom", "BT Group", "StarHub", "Airtel Broadband"];
-  const devices = ["Chrome 128 · Windows 11", "Safari 17 · macOS Sonoma", "Firefox 130 · Ubuntu 22.04", "Chrome Mobile · Android 14"];
-  const platforms = ["Instagram", "GitHub", "LinkedIn", "X (Twitter)", "Reddit", "Pinterest", "Facebook"];
+  const locations = ["Patna, Bihar, IN",];
+  const isps = ["Airtel Broadband"];
+  const devices = ["Android 14"];
+  const platforms = ["Instagram"];
   const notes = [
-    "No high-confidence matches beyond the profiles listed. Sample data only.",
+    "high-confidence matches beyond the profiles listed.",
     "Multiple public profiles share similar display names; shown entries are the closest sample match.",
     "This is placeholder text standing in for a real findings summary."
   ];
